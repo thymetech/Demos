@@ -21,6 +21,10 @@
 		93DC83861612197B00BD0AEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC83671612197B00BD0AEF /* Foundation.framework */; };
 		93DC838E1612197B00BD0AEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93DC838C1612197B00BD0AEF /* InfoPlist.strings */; };
 		93DC83911612197B00BD0AEF /* MLWDemoTouchDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC83901612197B00BD0AEF /* MLWDemoTouchDBTests.m */; };
+		93DC85571612266B00BD0AEF /* DDGMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC85561612266B00BD0AEF /* DDGMacros.m */; };
+		93DC85581612266B00BD0AEF /* DDGMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC85561612266B00BD0AEF /* DDGMacros.m */; };
+		93DC855A16122AD100BD0AEF /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC855916122AD100BD0AEF /* CouchCocoa.framework */; };
+		93DC855C16122AE100BD0AEF /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC855B16122AE100BD0AEF /* TouchDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		93DC838D1612197B00BD0AEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93DC838F1612197B00BD0AEF /* MLWDemoTouchDBTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLWDemoTouchDBTests.h; sourceTree = "<group>"; };
 		93DC83901612197B00BD0AEF /* MLWDemoTouchDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLWDemoTouchDBTests.m; sourceTree = "<group>"; };
+		93DC85551612266B00BD0AEF /* DDGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGMacros.h; sourceTree = "<group>"; };
+		93DC85561612266B00BD0AEF /* DDGMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGMacros.m; sourceTree = "<group>"; };
+		93DC855916122AD100BD0AEF /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchCocoa.framework; path = "MLWDemoTouchDB/vendor frameworks/CouchCocoa.framework"; sourceTree = "<group>"; };
+		93DC855B16122AE100BD0AEF /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchDB.framework; path = "MLWDemoTouchDB/vendor frameworks/TouchDB.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DC855C16122AE100BD0AEF /* TouchDB.framework in Frameworks */,
+				93DC855A16122AD100BD0AEF /* CouchCocoa.framework in Frameworks */,
 				93DC83661612197B00BD0AEF /* UIKit.framework in Frameworks */,
 				93DC83681612197B00BD0AEF /* Foundation.framework in Frameworks */,
 				93DC836A1612197B00BD0AEF /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +92,8 @@
 		93DC83561612197B00BD0AEF = {
 			isa = PBXGroup;
 			children = (
+				93DC855D16122AEC00BD0AEF /* vendor frameworks */,
+				93DC85531612266B00BD0AEF /* vendor */,
 				93DC836B1612197B00BD0AEF /* MLWDemoTouchDB */,
 				93DC83891612197B00BD0AEF /* MLWDemoTouchDBTests */,
 				93DC83641612197B00BD0AEF /* Frameworks */,
@@ -150,6 +162,33 @@
 				93DC838C1612197B00BD0AEF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93DC85531612266B00BD0AEF /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				93DC85541612266B00BD0AEF /* DDGMacros */,
+			);
+			name = vendor;
+			path = MLWDemoTouchDB/vendor;
+			sourceTree = "<group>";
+		};
+		93DC85541612266B00BD0AEF /* DDGMacros */ = {
+			isa = PBXGroup;
+			children = (
+				93DC85551612266B00BD0AEF /* DDGMacros.h */,
+				93DC85561612266B00BD0AEF /* DDGMacros.m */,
+			);
+			path = DDGMacros;
+			sourceTree = "<group>";
+		};
+		93DC855D16122AEC00BD0AEF /* vendor frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93DC855B16122AE100BD0AEF /* TouchDB.framework */,
+				93DC855916122AD100BD0AEF /* CouchCocoa.framework */,
+			);
+			name = "vendor frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +302,7 @@
 			files = (
 				93DC83721612197B00BD0AEF /* main.m in Sources */,
 				93DC83761612197B00BD0AEF /* AppDelegate.m in Sources */,
+				93DC85571612266B00BD0AEF /* DDGMacros.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DC83911612197B00BD0AEF /* MLWDemoTouchDBTests.m in Sources */,
+				93DC85581612266B00BD0AEF /* DDGMacros.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +367,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,7 +388,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +399,10 @@
 		93DC83951612197B00BD0AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MLWDemoTouchDB/vendor frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLWDemoTouchDB/MLWDemoTouchDB-Prefix.pch";
 				INFOPLIST_FILE = "MLWDemoTouchDB/MLWDemoTouchDB-Info.plist";
@@ -369,6 +414,10 @@
 		93DC83961612197B00BD0AEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MLWDemoTouchDB/vendor frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLWDemoTouchDB/MLWDemoTouchDB-Prefix.pch";
 				INFOPLIST_FILE = "MLWDemoTouchDB/MLWDemoTouchDB-Info.plist";
@@ -430,6 +479,7 @@
 				93DC83961612197B00BD0AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93DC83971612197B00BD0AEF /* Build configuration list for PBXNativeTarget "MLWDemoTouchDBTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +488,7 @@
 				93DC83991612197B00BD0AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
