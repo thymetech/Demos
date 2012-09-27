@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93595E7916134F4200F0C5F0 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93595E7816134F4200F0C5F0 /* RootTableViewController.m */; };
+		93595E7A16134F4200F0C5F0 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93595E7816134F4200F0C5F0 /* RootTableViewController.m */; };
+		93595E891613588D00F0C5F0 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93595E7D1613588D00F0C5F0 /* background.jpg */; };
+		93595E8A1613588D00F0C5F0 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93595E7D1613588D00F0C5F0 /* background.jpg */; };
+		93595E8B1613588D00F0C5F0 /* background~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93595E7E1613588D00F0C5F0 /* background~ipad.jpg */; };
+		93595E8C1613588D00F0C5F0 /* background~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93595E7E1613588D00F0C5F0 /* background~ipad.jpg */; };
+		93595E8D1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E7F1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png */; };
+		93595E8E1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E7F1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png */; };
+		93595E8F1613588D00F0C5F0 /* item_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E801613588D00F0C5F0 /* item_background.png */; };
+		93595E901613588D00F0C5F0 /* item_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E801613588D00F0C5F0 /* item_background.png */; };
+		93595E911613588D00F0C5F0 /* item_background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E811613588D00F0C5F0 /* item_background~ipad.png */; };
+		93595E921613588D00F0C5F0 /* item_background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E811613588D00F0C5F0 /* item_background~ipad.png */; };
+		93595E931613588D00F0C5F0 /* list_area___background_middle~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E821613588D00F0C5F0 /* list_area___background_middle~ipad.png */; };
+		93595E941613588D00F0C5F0 /* list_area___background_middle~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E821613588D00F0C5F0 /* list_area___background_middle~ipad.png */; };
+		93595E951613588D00F0C5F0 /* list_area___checkbox___checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E831613588D00F0C5F0 /* list_area___checkbox___checked.png */; };
+		93595E961613588D00F0C5F0 /* list_area___checkbox___checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E831613588D00F0C5F0 /* list_area___checkbox___checked.png */; };
+		93595E971613588D00F0C5F0 /* list_area___checkbox___unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E841613588D00F0C5F0 /* list_area___checkbox___unchecked.png */; };
+		93595E981613588D00F0C5F0 /* list_area___checkbox___unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E841613588D00F0C5F0 /* list_area___checkbox___unchecked.png */; };
+		93595E991613588D00F0C5F0 /* textfield___active.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E851613588D00F0C5F0 /* textfield___active.png */; };
+		93595E9A1613588D00F0C5F0 /* textfield___active.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E851613588D00F0C5F0 /* textfield___active.png */; };
+		93595E9B1613588D00F0C5F0 /* textfield___active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E861613588D00F0C5F0 /* textfield___active~ipad.png */; };
+		93595E9C1613588D00F0C5F0 /* textfield___active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E861613588D00F0C5F0 /* textfield___active~ipad.png */; };
+		93595E9D1613588D00F0C5F0 /* textfield___inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E871613588D00F0C5F0 /* textfield___inactive.png */; };
+		93595E9E1613588D00F0C5F0 /* textfield___inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E871613588D00F0C5F0 /* textfield___inactive.png */; };
+		93595E9F1613588D00F0C5F0 /* textfield___inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E881613588D00F0C5F0 /* textfield___inactive~ipad.png */; };
+		93595EA01613588D00F0C5F0 /* textfield___inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93595E881613588D00F0C5F0 /* textfield___inactive~ipad.png */; };
+		93595EA31613718C00F0C5F0 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93595EA21613718C00F0C5F0 /* ConfigViewController.m */; };
+		93595EA41613718C00F0C5F0 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93595EA21613718C00F0C5F0 /* ConfigViewController.m */; };
+		93595EA61613A4B900F0C5F0 /* RootTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93595EA51613A4B900F0C5F0 /* RootTableViewController.xib */; };
+		93595EA71613A4B900F0C5F0 /* RootTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93595EA51613A4B900F0C5F0 /* RootTableViewController.xib */; };
 		93DC83661612197B00BD0AEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC83651612197B00BD0AEF /* UIKit.framework */; };
 		93DC83681612197B00BD0AEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC83671612197B00BD0AEF /* Foundation.framework */; };
 		93DC836A1612197B00BD0AEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC83691612197B00BD0AEF /* CoreGraphics.framework */; };
@@ -23,8 +53,19 @@
 		93DC83911612197B00BD0AEF /* MLWDemoTouchDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC83901612197B00BD0AEF /* MLWDemoTouchDBTests.m */; };
 		93DC85571612266B00BD0AEF /* DDGMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC85561612266B00BD0AEF /* DDGMacros.m */; };
 		93DC85581612266B00BD0AEF /* DDGMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC85561612266B00BD0AEF /* DDGMacros.m */; };
-		93DC855A16122AD100BD0AEF /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC855916122AD100BD0AEF /* CouchCocoa.framework */; };
-		93DC855C16122AE100BD0AEF /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC855B16122AE100BD0AEF /* TouchDB.framework */; };
+		93DC856016123D5900BD0AEF /* CouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC855F16123D5900BD0AEF /* CouchManager.m */; };
+		93DC856116123D5900BD0AEF /* CouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC855F16123D5900BD0AEF /* CouchManager.m */; };
+		93DC8569161339B300BD0AEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC8568161339B300BD0AEF /* CFNetwork.framework */; };
+		93DC856B161339BE00BD0AEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC856A161339BE00BD0AEF /* Security.framework */; };
+		93DC856D161339CF00BD0AEF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC856C161339CF00BD0AEF /* SystemConfiguration.framework */; };
+		93DC856F16133A0B00BD0AEF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC856E16133A0B00BD0AEF /* libsqlite3.dylib */; };
+		93DC857116133A1500BD0AEF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC857016133A1500BD0AEF /* libz.dylib */; };
+		93DC857416133A7B00BD0AEF /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC857216133A7B00BD0AEF /* CouchCocoa.framework */; };
+		93DC857516133A7B00BD0AEF /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC857216133A7B00BD0AEF /* CouchCocoa.framework */; };
+		93DC857616133A7B00BD0AEF /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC857316133A7B00BD0AEF /* TouchDB.framework */; };
+		93DC857716133A7B00BD0AEF /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DC857316133A7B00BD0AEF /* TouchDB.framework */; };
+		93F37AAA1613D79300557A9D /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F37AA91613D79300557A9D /* ConfigViewController.xib */; };
+		93F37AAB1613D79300557A9D /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F37AA91613D79300557A9D /* ConfigViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +79,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93595E7716134F4200F0C5F0 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		93595E7816134F4200F0C5F0 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		93595E7D1613588D00F0C5F0 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		93595E7E1613588D00F0C5F0 /* background~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background~ipad.jpg"; sourceTree = "<group>"; };
+		93595E7F1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couchbase-mobile-icon-nameless.png"; sourceTree = "<group>"; };
+		93595E801613588D00F0C5F0 /* item_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_background.png; sourceTree = "<group>"; };
+		93595E811613588D00F0C5F0 /* item_background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_background~ipad.png"; sourceTree = "<group>"; };
+		93595E821613588D00F0C5F0 /* list_area___background_middle~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_area___background_middle~ipad.png"; sourceTree = "<group>"; };
+		93595E831613588D00F0C5F0 /* list_area___checkbox___checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_area___checkbox___checked.png"; sourceTree = "<group>"; };
+		93595E841613588D00F0C5F0 /* list_area___checkbox___unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_area___checkbox___unchecked.png"; sourceTree = "<group>"; };
+		93595E851613588D00F0C5F0 /* textfield___active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textfield___active.png"; sourceTree = "<group>"; };
+		93595E861613588D00F0C5F0 /* textfield___active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textfield___active~ipad.png"; sourceTree = "<group>"; };
+		93595E871613588D00F0C5F0 /* textfield___inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textfield___inactive.png"; sourceTree = "<group>"; };
+		93595E881613588D00F0C5F0 /* textfield___inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textfield___inactive~ipad.png"; sourceTree = "<group>"; };
+		93595EA11613718C00F0C5F0 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		93595EA21613718C00F0C5F0 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		93595EA51613A4B900F0C5F0 /* RootTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootTableViewController.xib; sourceTree = "<group>"; };
 		93DC83611612197B00BD0AEF /* MLWDemoTouchDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLWDemoTouchDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DC83651612197B00BD0AEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93DC83671612197B00BD0AEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,8 +117,16 @@
 		93DC83901612197B00BD0AEF /* MLWDemoTouchDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLWDemoTouchDBTests.m; sourceTree = "<group>"; };
 		93DC85551612266B00BD0AEF /* DDGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGMacros.h; sourceTree = "<group>"; };
 		93DC85561612266B00BD0AEF /* DDGMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGMacros.m; sourceTree = "<group>"; };
-		93DC855916122AD100BD0AEF /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchCocoa.framework; path = "MLWDemoTouchDB/vendor frameworks/CouchCocoa.framework"; sourceTree = "<group>"; };
-		93DC855B16122AE100BD0AEF /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchDB.framework; path = "MLWDemoTouchDB/vendor frameworks/TouchDB.framework"; sourceTree = "<group>"; };
+		93DC855E16123D5900BD0AEF /* CouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchManager.h; sourceTree = "<group>"; };
+		93DC855F16123D5900BD0AEF /* CouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchManager.m; sourceTree = "<group>"; };
+		93DC8568161339B300BD0AEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		93DC856A161339BE00BD0AEF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		93DC856C161339CF00BD0AEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		93DC856E16133A0B00BD0AEF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		93DC857016133A1500BD0AEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		93DC857216133A7B00BD0AEF /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchCocoa.framework; path = "MLWDemoTouchDB/vendor frameworks/CouchCocoa.framework"; sourceTree = "<group>"; };
+		93DC857316133A7B00BD0AEF /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchDB.framework; path = "MLWDemoTouchDB/vendor frameworks/TouchDB.framework"; sourceTree = "<group>"; };
+		93F37AA91613D79300557A9D /* ConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +134,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DC855C16122AE100BD0AEF /* TouchDB.framework in Frameworks */,
-				93DC855A16122AD100BD0AEF /* CouchCocoa.framework in Frameworks */,
+				93DC857116133A1500BD0AEF /* libz.dylib in Frameworks */,
+				93DC856F16133A0B00BD0AEF /* libsqlite3.dylib in Frameworks */,
+				93DC856D161339CF00BD0AEF /* SystemConfiguration.framework in Frameworks */,
+				93DC856B161339BE00BD0AEF /* Security.framework in Frameworks */,
+				93DC8569161339B300BD0AEF /* CFNetwork.framework in Frameworks */,
 				93DC83661612197B00BD0AEF /* UIKit.framework in Frameworks */,
 				93DC83681612197B00BD0AEF /* Foundation.framework in Frameworks */,
 				93DC836A1612197B00BD0AEF /* CoreGraphics.framework in Frameworks */,
+				93DC857416133A7B00BD0AEF /* CouchCocoa.framework in Frameworks */,
+				93DC857616133A7B00BD0AEF /* TouchDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +154,33 @@
 				93DC83841612197B00BD0AEF /* SenTestingKit.framework in Frameworks */,
 				93DC83851612197B00BD0AEF /* UIKit.framework in Frameworks */,
 				93DC83861612197B00BD0AEF /* Foundation.framework in Frameworks */,
+				93DC857516133A7B00BD0AEF /* CouchCocoa.framework in Frameworks */,
+				93DC857716133A7B00BD0AEF /* TouchDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93595E7C1613588D00F0C5F0 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				93595E7D1613588D00F0C5F0 /* background.jpg */,
+				93595E7E1613588D00F0C5F0 /* background~ipad.jpg */,
+				93595E7F1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png */,
+				93595E801613588D00F0C5F0 /* item_background.png */,
+				93595E811613588D00F0C5F0 /* item_background~ipad.png */,
+				93595E821613588D00F0C5F0 /* list_area___background_middle~ipad.png */,
+				93595E831613588D00F0C5F0 /* list_area___checkbox___checked.png */,
+				93595E841613588D00F0C5F0 /* list_area___checkbox___unchecked.png */,
+				93595E851613588D00F0C5F0 /* textfield___active.png */,
+				93595E861613588D00F0C5F0 /* textfield___active~ipad.png */,
+				93595E871613588D00F0C5F0 /* textfield___inactive.png */,
+				93595E881613588D00F0C5F0 /* textfield___inactive~ipad.png */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
 		93DC83561612197B00BD0AEF = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +205,11 @@
 		93DC83641612197B00BD0AEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93DC857016133A1500BD0AEF /* libz.dylib */,
+				93DC856E16133A0B00BD0AEF /* libsqlite3.dylib */,
+				93DC856C161339CF00BD0AEF /* SystemConfiguration.framework */,
+				93DC856A161339BE00BD0AEF /* Security.framework */,
+				93DC8568161339B300BD0AEF /* CFNetwork.framework */,
 				93DC83651612197B00BD0AEF /* UIKit.framework */,
 				93DC83671612197B00BD0AEF /* Foundation.framework */,
 				93DC83691612197B00BD0AEF /* CoreGraphics.framework */,
@@ -126,6 +223,14 @@
 			children = (
 				93DC83741612197B00BD0AEF /* AppDelegate.h */,
 				93DC83751612197B00BD0AEF /* AppDelegate.m */,
+				93DC855E16123D5900BD0AEF /* CouchManager.h */,
+				93DC855F16123D5900BD0AEF /* CouchManager.m */,
+				93595E7716134F4200F0C5F0 /* RootTableViewController.h */,
+				93595E7816134F4200F0C5F0 /* RootTableViewController.m */,
+				93595EA51613A4B900F0C5F0 /* RootTableViewController.xib */,
+				93595EA11613718C00F0C5F0 /* ConfigViewController.h */,
+				93595EA21613718C00F0C5F0 /* ConfigViewController.m */,
+				93F37AA91613D79300557A9D /* ConfigViewController.xib */,
 				93DC836C1612197B00BD0AEF /* Supporting Files */,
 			);
 			path = MLWDemoTouchDB;
@@ -134,6 +239,7 @@
 		93DC836C1612197B00BD0AEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				93595E7C1613588D00F0C5F0 /* Elements */,
 				93DC836D1612197B00BD0AEF /* MLWDemoTouchDB-Info.plist */,
 				93DC836E1612197B00BD0AEF /* InfoPlist.strings */,
 				93DC83711612197B00BD0AEF /* main.m */,
@@ -185,8 +291,8 @@
 		93DC855D16122AEC00BD0AEF /* vendor frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93DC855B16122AE100BD0AEF /* TouchDB.framework */,
-				93DC855916122AD100BD0AEF /* CouchCocoa.framework */,
+				93DC857216133A7B00BD0AEF /* CouchCocoa.framework */,
+				93DC857316133A7B00BD0AEF /* TouchDB.framework */,
 			);
 			name = "vendor frameworks";
 			sourceTree = "<group>";
@@ -266,6 +372,20 @@
 				93DC83781612197B00BD0AEF /* Default.png in Resources */,
 				93DC837A1612197B00BD0AEF /* Default@2x.png in Resources */,
 				93DC837C1612197B00BD0AEF /* Default-568h@2x.png in Resources */,
+				93595E891613588D00F0C5F0 /* background.jpg in Resources */,
+				93595E8B1613588D00F0C5F0 /* background~ipad.jpg in Resources */,
+				93595E8D1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png in Resources */,
+				93595E8F1613588D00F0C5F0 /* item_background.png in Resources */,
+				93595E911613588D00F0C5F0 /* item_background~ipad.png in Resources */,
+				93595E931613588D00F0C5F0 /* list_area___background_middle~ipad.png in Resources */,
+				93595E951613588D00F0C5F0 /* list_area___checkbox___checked.png in Resources */,
+				93595E971613588D00F0C5F0 /* list_area___checkbox___unchecked.png in Resources */,
+				93595E991613588D00F0C5F0 /* textfield___active.png in Resources */,
+				93595E9B1613588D00F0C5F0 /* textfield___active~ipad.png in Resources */,
+				93595E9D1613588D00F0C5F0 /* textfield___inactive.png in Resources */,
+				93595E9F1613588D00F0C5F0 /* textfield___inactive~ipad.png in Resources */,
+				93595EA61613A4B900F0C5F0 /* RootTableViewController.xib in Resources */,
+				93F37AAA1613D79300557A9D /* ConfigViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +394,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DC838E1612197B00BD0AEF /* InfoPlist.strings in Resources */,
+				93595E8A1613588D00F0C5F0 /* background.jpg in Resources */,
+				93595E8C1613588D00F0C5F0 /* background~ipad.jpg in Resources */,
+				93595E8E1613588D00F0C5F0 /* couchbase-mobile-icon-nameless.png in Resources */,
+				93595E901613588D00F0C5F0 /* item_background.png in Resources */,
+				93595E921613588D00F0C5F0 /* item_background~ipad.png in Resources */,
+				93595E941613588D00F0C5F0 /* list_area___background_middle~ipad.png in Resources */,
+				93595E961613588D00F0C5F0 /* list_area___checkbox___checked.png in Resources */,
+				93595E981613588D00F0C5F0 /* list_area___checkbox___unchecked.png in Resources */,
+				93595E9A1613588D00F0C5F0 /* textfield___active.png in Resources */,
+				93595E9C1613588D00F0C5F0 /* textfield___active~ipad.png in Resources */,
+				93595E9E1613588D00F0C5F0 /* textfield___inactive.png in Resources */,
+				93595EA01613588D00F0C5F0 /* textfield___inactive~ipad.png in Resources */,
+				93595EA71613A4B900F0C5F0 /* RootTableViewController.xib in Resources */,
+				93F37AAB1613D79300557A9D /* ConfigViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +437,9 @@
 				93DC83721612197B00BD0AEF /* main.m in Sources */,
 				93DC83761612197B00BD0AEF /* AppDelegate.m in Sources */,
 				93DC85571612266B00BD0AEF /* DDGMacros.m in Sources */,
+				93DC856016123D5900BD0AEF /* CouchManager.m in Sources */,
+				93595E7916134F4200F0C5F0 /* RootTableViewController.m in Sources */,
+				93595EA31613718C00F0C5F0 /* ConfigViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +449,9 @@
 			files = (
 				93DC83911612197B00BD0AEF /* MLWDemoTouchDBTests.m in Sources */,
 				93DC85581612266B00BD0AEF /* DDGMacros.m in Sources */,
+				93DC856116123D5900BD0AEF /* CouchManager.m in Sources */,
+				93595E7A16134F4200F0C5F0 /* RootTableViewController.m in Sources */,
+				93595EA41613718C00F0C5F0 /* ConfigViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +496,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"./MLWDemoTouchDB/vendor frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -367,7 +510,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -384,11 +527,14 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"./MLWDemoTouchDB/vendor frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,10 +548,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MLWDemoTouchDB/vendor frameworks\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLWDemoTouchDB/MLWDemoTouchDB-Prefix.pch";
 				INFOPLIST_FILE = "MLWDemoTouchDB/MLWDemoTouchDB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,10 +566,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MLWDemoTouchDB/vendor frameworks\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLWDemoTouchDB/MLWDemoTouchDB-Prefix.pch";
 				INFOPLIST_FILE = "MLWDemoTouchDB/MLWDemoTouchDB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,6 +585,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MLWDemoTouchDB/vendor frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLWDemoTouchDB/MLWDemoTouchDB-Prefix.pch";
@@ -450,6 +604,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MLWDemoTouchDB/vendor frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLWDemoTouchDB/MLWDemoTouchDB-Prefix.pch";

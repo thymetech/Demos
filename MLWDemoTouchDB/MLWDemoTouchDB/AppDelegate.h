@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CouchCocoa/CouchCocoa.h>
+#import <CouchCocoa/CouchTouchDBServer.h>
 
+@class RootTableViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) RootTableViewController *rootTableViewController;
+@property (nonatomic, retain) CouchDatabase *database;
 
 @end

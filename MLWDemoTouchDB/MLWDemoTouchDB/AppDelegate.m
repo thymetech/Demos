@@ -7,21 +7,90 @@
 //
 
 #import "AppDelegate.h"
+#import "CouchManager.h"
+#import <CouchCocoa/CouchCocoa.h>
+#import <CouchCocoa/CouchTouchDBServer.h>
+#import "RootTableViewController.h"
+
 #define CLASS_DEBUG 1
 #import "DDGMacros.h"
 
+// The default remote database URL to sync with, if the user hasn't set a different one as a pref.
+//#define kDefaultSyncDbURL @"http://couchbase.iriscouch.com/grocery-sync"
+
 @implementation AppDelegate
+
+- (RootTableViewController *) rootTableViewController;
+{
+    if (!_rootTableViewController) {
+        self.rootTableViewController = [[RootTableViewController alloc] initWithNibName:@"RootTableViewController" bundle:nil];
+    }
+    return _rootTableViewController;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     DDGTrace();
+    
+    [self configureManagers];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    
+    
+//    UIViewController *aViewController = [[UIViewController alloc] init];
+//    aViewController.view.backgroundColor = [UIColor purpleColor];
+//    [aViewController.view addSubview:self.rootTableViewController.view];
+    
+    UINavigationController *aNavigationController = [[UINavigationController alloc] initWithRootViewController:self.rootTableViewController];
+    
+    self.window.rootViewController = aNavigationController;
     self.window.rootViewController.view.backgroundColor = [UIColor redColor];
+    
     [self.window makeKeyAndVisible];
+    
+//    gCouchLogLevel = 1;
+//    CouchTouchDBServer* server;
+//#ifdef USE_REMOTE_SERVER
+//    server = [[CouchTouchDBServer alloc] initWithURL: [NSURL URLWithString: USE_REMOTE_SERVER]];
+//#else
+//    server = [[CouchTouchDBServer alloc] init];
+//#endif
+//    if (server.error) {
+//        [[[UIAlertView alloc] initWithTitle:@"ERROR" message:@"App Could not create server" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+//    }
+//    self.database = [server databaseNamed: @"grocery-sync"];
+//    NSError* error;
+//    if (![self.database ensureCreated: &error]) {
+//        [[[UIAlertView alloc] initWithTitle:@"ERROR" message:@"App Could not create local database" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+//        return YES;
+//    }
+
     return YES;
+}
+
+- (void) configureServer {
+#ifdef kDefaultSyncDbURL
+    DDGTrace();
+    // Register the default value of the pref for the remote database URL to sync with:
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSDictionary *appdefaults = [NSDictionary dictionaryWithObject:kDefaultSyncDbURL
+                                                            forKey:@"syncpoint"];
+    [defaults registerDefaults:appdefaults];
+    [defaults synchronize];
+#endif
+}
+
+- (void) configureManagers {
+    DDGTrace();
+    
+    NSError *error = nil;
+    if (![[CouchManager sharedCouchManager] startCouchbaseMobileServer:&error]) {
+        DDGLog(@"ERROR: %@", [error localizedDescription]);
+    }
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
